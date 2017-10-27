@@ -1,2 +1,2 @@
 # CIGO_CRM
-# Developer:Freak Six , Garick Jay , Old Jia
+# Developer:Freak Six , Garick Jay , Old Jia , Old Wu
