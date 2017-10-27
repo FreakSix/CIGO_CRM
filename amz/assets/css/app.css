@@ -21,7 +21,7 @@ SCROLLBAR-BASE-COLOR:   rgb(66,93,128)/滚动条的基本颜色
 }
 
 html, body {
-    background: #fff;
+    background: #E9ECF3;
     overflow: inherit;
 }
 
@@ -493,12 +493,11 @@ ul.tpl-dropdown-content li>a.tpl-dropdown-content-message:last-child {
     font-weight: 400;
 }
 .b-box{
-    width:303px;
+    width:240px;
     overflow-x: hidden ;
 }
 .tpl-left-nav {
-    width: 250px;
-
+    width: 220px;
     overflow-x: hidden ;
     float: left;
     border-radius: 0px;
@@ -517,7 +516,7 @@ ul.tpl-dropdown-content li>a.tpl-dropdown-content-message:last-child {
 }
 
 .tpl-left-nav-list {
-    width: 250px;
+    width: 220px;
     overflow-x:hidden; 
 }
 
