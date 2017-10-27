@@ -497,7 +497,7 @@ ul.tpl-dropdown-content li>a.tpl-dropdown-content-message:last-child {
     overflow-x: hidden ;
 }
 .tpl-left-nav {
-    width: 285px;
+    width: 250px;
 
     overflow-x: hidden ;
     float: left;
@@ -517,7 +517,7 @@ ul.tpl-dropdown-content li>a.tpl-dropdown-content-message:last-child {
 }
 
 .tpl-left-nav-list {
-    width: 285px;
+    width: 250px;
     overflow-x:hidden; 
 }
 
