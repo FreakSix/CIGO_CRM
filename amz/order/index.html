@@ -62,22 +62,20 @@
                                     <button type="button" onclick="window.open('add.html','main')" class="am-btn am-btn-default am-btn-success"><span class="am-icon-plus"></span> 新增订单</button>
                                     <!-- <div id="div1nnn" style="display:none;"><iframe src="add.html" width=100% height=100% id=""></iframe></div> -->
                                     <button type="button" class="am-btn am-btn-default am-btn-secondary"><span class="am-icon-save"></span> 导出数据</button>
-                                    <button type="button" class="am-btn am-btn-default am-btn-warning"><span class="am-icon-cog"></span> 显示设置</button>
                                     <button type="button" class="am-btn am-btn-default am-btn-danger"><span class="am-icon-trash-o"></span> 删除所选内容</button>
-                                    <button type="button" onclick="javascript:history.go(1);" class="am-btn am-btn-default am-btn-primary"><span class="am-icon-angle-right"></span> 前进</button>
                                 </div>
                             </div>
                         </div>
                         <div class="am-u-sm-12 am-u-md-3">
                             <div class="am-form-group">
                                 <select data-am-selected="{btnSize: 'sm'}">
-                                  <option value="option1">所有类别</option>
-                                  <option value="option2">IT业界</option>
-                                  <option value="option3">数码产品</option>
-                                  <option value="option3">笔记本电脑</option>
-                                  <option value="option3">平板电脑</option>
-                                  <option value="option3">只能手机</option>
-                                  <option value="option3">超极本</option>
+                                  <option value="option1">全部订单</option>
+                                  <option value="option2">已完成订单</option>
+                                  <option value="option3">已收货订单</option>
+                                  <option value="option3">已发货订单</option>
+                                  <option value="option3">生产中订单</option>
+                                  <option value="option3">待审核订单</option>
+                                  <option value="option3">已作废订单</option>
                                 </select>
                             </div>
                         </div>
@@ -97,9 +95,13 @@
                                     <thead>
                                         <tr>
                                             <th class="table-check"><input type="checkbox" class="tpl-table-fz-check"></th>
-                                            <th class="table-id">ID</th>
-                                            <th class="table-title">标题</th>
+                                            <th class="table-id">订单编号</th>
+                                            <th class="table-title">商品名称</th>
+                                            <th class="table-cus">客户名称</th>
+                                            <th class="table-sum">金额</th>
                                             <th class="table-type">类别</th>
+                                            <th class="table-status">状态</th>
+                                            <th class="table-status">付款状态</th>
                                             <th class="table-author am-hide-sm-only">作者</th>
                                             <th class="table-date am-hide-sm-only">修改日期</th>
                                             <th class="table-set">操作</th>
@@ -111,6 +113,10 @@
                                             <td>1</td>
                                             <td><a href="#">Business management</a></td>
                                             <td>default</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
                                             <td class="am-hide-sm-only">测试1号</td>
                                             <td class="am-hide-sm-only">2014年9月4日 7:28:47</td>
                                             <td>
@@ -128,6 +134,10 @@
                                             <td>2</td>
                                             <td><a href="#">Business management</a></td>
                                             <td>default</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
                                             <td class="am-hide-sm-only">测试1号</td>
                                             <td class="am-hide-sm-only">2014年9月4日 7:28:47</td>
                                             <td>

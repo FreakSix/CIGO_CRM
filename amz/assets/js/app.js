@@ -39,6 +39,19 @@ $('.tpl-left-nav-link-list').on('click', function() {
             .find('.tpl-left-nav-more-ico').toggleClass('tpl-left-nav-more-ico-rotate');
     })
     // ==========================
+    // 侧边导航二级下拉列表
+    // ==========================
+$('.tpl-left-nav-link-list-first').on('click', function() {
+        $(this).siblings('.tpl-left-nav-sub-menu-first').slideToggle(80)
+            .end()
+            .find('.am-icon-angle-right').toggleClass('tpl-left-nav-more-ico-rotate');
+    })
+$('.tpl-left-nav-link-list-second').on('click', function() {
+        $(this).siblings('.tpl-left-nav-sub-menu-second').slideToggle(80)
+            .end()
+            .find('.am-icon-angle-right').toggleClass('tpl-left-nav-more-ico-rotate');
+    })
+    // ==========================
     // 头部导航隐藏菜单
     // ==========================
 

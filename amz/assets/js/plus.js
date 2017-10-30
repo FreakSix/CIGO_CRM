@@ -15,11 +15,11 @@ $(document).ready(function(){
     if (userAgent.indexOf("Chrome") > -1){
         $(".tpl-left-nav").height($(document.body).height()-45);
         $(".b-box").height($(document.body).height()-95);
-        $(".tpl-content-wrapper").width($(window).width()-315);
-        $("#main-iframe").width($(window).width()-315);
+        $(".tpl-content-wrapper").width($(window).width()-280);
+        $("#main-iframe").width($(window).width()-280);
     }else{
-        $(".tpl-content-wrapper").width($(window).width()-310);
-        $("#main-iframe").width($(window).width()-310);
+        $(".tpl-content-wrapper").width($(window).width()-275);
+        $("#main-iframe").width($(window).width()-275);
         $(".tpl-left-nav").height($(document.body).height()+45);
         $(".b-box").height($(document.body).height()+45);
     }
